@@ -8,10 +8,7 @@ use Webmozart\PathUtil\Path;
 
 $facts    = new Facts();
 $settings = include Path::join(
-    $facts->getVendorPath(),
-    $facts::COMPOSER_VENDOR_OXID_ESALES,
-    'amazon-pay-module',
-    'Tests',
+    __DIR__,
     'Unit',
     'amazonpayData.php'
 );
