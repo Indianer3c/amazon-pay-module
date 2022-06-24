@@ -147,31 +147,36 @@ $aModule = [
         [
             'template' => 'headitem.tpl',
             'block' => 'admin_headitem_inccss',
-            'file' => 'views/blocks/admin/admin_headitem_inccss.tpl'
+            'file' => 'views/blocks/admin/admin_headitem_inccss.tpl',
+            'position' => '5',
         ],
         [
             'theme' => 'flow',
             'template' => 'layout/base.tpl',
             'block' => 'base_js',
-            'file' => 'views/blocks/flow/layout/base_js.tpl'
+            'file' => 'views/blocks/flow/layout/base_js.tpl',
+            'position' => '5',
         ],
         [
             'theme' => 'wave',
             'template' => 'layout/base.tpl',
             'block' => 'base_js',
-            'file' => 'views/blocks/wave/layout/base_js.tpl'
+            'file' => 'views/blocks/wave/layout/base_js.tpl',
+            'position' => '5',
         ],
         [
             'theme' => 'flow',
             'template' => 'layout/base.tpl',
             'block' => 'base_style',
-            'file' => 'views/blocks/flow/layout/base_style.tpl'
+            'file' => 'views/blocks/flow/layout/base_style.tpl',
+            'position' => '5',
         ],
         [
             'theme' => 'wave',
             'template' => 'layout/base.tpl',
             'block' => 'base_style',
-            'file' => 'views/blocks/wave/layout/base_style.tpl'
+            'file' => 'views/blocks/wave/layout/base_style.tpl',
+            'position' => '5',
         ],
         [
             'theme' => 'flow',
